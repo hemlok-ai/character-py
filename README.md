@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/character-py-logo.png" alt="Character.pyロゴ" width="600">
+  <img src="assets/character-py-logo.png" alt="Character.pyロゴ" width="300">
 
   <h1>Character.py</h1>
 
