@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+/* 全体のスタイル */
+.stApp {
+    background: linear-gradient(#1B263B, #0D1B2A);
+    color: #D9E4EC;
+}
+
+/* タイトル */
+h1 {
+    font-family: 'Cinzel', serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* フォームとコンテナ */
+.stForm, .stContainer {
+    background: rgba(27, 38, 59, 0.8);
+    border: 2px solid #C0C0C0;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* ボタン */
+.stButton > button {
+    background: #FFD700;
+    color: #1B263B;
+    border: 2px solid #C0C0C0;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.stButton > button:hover {
+    background: #DAA520;
+    box-shadow: 0 0 10px #FFD700;
+    transform: scale(1.02);
+}
+.stButton > button:active {
+    background: #DAA520;
+    box-shadow: 0 0 15px #FFD700, inset 0 0 8px #FFD700;
+}
+
+/* 職業選択アイコン（セレクトボックス用） */
+.stSelectbox div[data-baseweb="select"] > div::before {
+    margin-right: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+.stSelectbox div[data-baseweb="select"]:hover::before {
+    filter: drop-shadow(0 0 5px #FFD700);
+}
+
+/* キャラクターカードの職業アイコン */
+.job-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+.job-icon:hover {
+    filter: drop-shadow(0 0 5px #FFD700);
+}
+
+/* キャラクターカード */
+.character-card {
+    background: rgba(27, 38, 59, 0.9);
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.character-card h4 {
+    color: #FFD700;
+    margin-bottom: 5px;
+}
+
+/* セレクトボックスと入力 */
+.stSelectbox > div, .stTextInput > div > input {
+    background: #415A77;
+    color: #D9E4EC;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+}
